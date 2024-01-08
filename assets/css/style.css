@@ -1,0 +1,73 @@
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius:10px ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-perfil{
+    height: 75%;
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.055);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.content-perfil > img{
+    width: 100px;
+    height: 100px;
+}
+
+.content-perfil > p{
+    margin-top: 20px;
+}
+.content-perfil .name{
+    font-weight: 700;
+}
+
+.content-perfil span{
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.content-perfil .city{
+    color:var(--text-color);
+}
+
+
+.info-perfil{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-perfil > div{
+    text-align: center;
+}
+
+.info-perfil span{
+   font-weight: bold;
+}
+
+.info-perfil p{
+    color: var(--text-color);
+}
